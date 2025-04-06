@@ -1,113 +1,161 @@
-# Airline Campagin Evaluation
+# Airline Campaign Evaluation
+
 
 ## Project Background
 
-As a Data Analyst at Air Canada I'm collaborating with the Marketing department to evaluate the effectiveness of the Promotion Campaign 2018 by year-on-year growth, cancellation rate, and Customer Lifecycle Value. Additionally, I aim to identify the impact of demographics attributes(e.g., gender, education), on flight activity (e.g., flights booked, points accumulated/redeemed) and Lifetime Value. 
+
+As a Data Analyst at Air Canada, I'm collaborating with the Marketing department to evaluate the effectiveness of the 2018 Promotion Campaign. I'm focusing on three KPIs - year-on-year member(YoY) growth, cancellation rate, and Customer Lifetime Value (CLV). Additionally, I aim to uncover the impact of demographic attributes(gender, education) on flight activity and CLV.
 
 
 ## Executive Background
 
 
+
+
 ## Data Description
+
 
 The dataset consists of two tables - Customer and Flight, with the following attributes:
 
-1. Customer: The Customer table is divided into two sections for easier interpretation
 
-1.1 Demographics: This section includes five demographic attributes: Gender, Location, Education, Marital Status, and Salary.
+1. Customer: The Customer table is divided into two sections -
 
-1.2 Membership: This section provides information on the month and year of enrollment and cancellation (if applicable), along with the card type, enrollment type, and Customer Lifetime Value (CLV).
+1.1 Demographics - Gender, Location, Education, Marital Status, and Salary.
 
-2. Flights - The Flights table contains entries of the flights booked solo and with companion information on the year and month of booking along with points accumulated and redemed in that month by the member (Loyalty NUumber).
+1.2 Membership: Month and year of enrollment and cancellation (if cancelled), along with the card type, enrollment type, and Customer Lifetime Value (CLV).
+
+
+2. Flights - The Flights table contains entries of the flights booked solo and with companion information on the year and month of booking along with points accumulated and redeemed in that month by the member (Loyalty NUumber).
+
 
 <p align="center">
-  <img src="https://github.com/Sharath-Devanand/PizzaProject/blob/master/imgs/airline_schema.png?raw=true" width="60%">
+  <img src="https://github.com/Sharath-Devanand/Airline-loyalty-analysis/blob/master/imgs/airline_schema.png?raw=true" width="60%">
 </p>
+
+
 
 
 ## Analysis & Insights
 
-The Analysis is organised into the below three subsections for better flow - 
+
+The Analysis is organised into the below three subsections for better flow -
+
 
 1. Historical Trends (2013 - 2017)
 2. Campaign Performance
 3. Performance Evaluation
 
+
 ### Historical Trends (2013–2017)
+
 
 A baseline is established for evaluating the campaign's performance across diverse demographics. Following are the insights for the last five years before the Campaign promotion started.
 
-##### 1. Demographic Metrics
 
-a. There has consistently been an equal representation of both genders (Male, Female) with an incremental increase in female members. Marketing programs should primarily focus on gender-neutral campaigns.
+#### 1. Demographic Metrics
 
-b. Married members dominate throughout history with an average of 60%. The difference of 30% from the second largest group in Marital Status (Single - 27%) indicates a high-volume of members with preference of AirCanada for holiday bookings.
 
-c. 80% of the members have their salary under 100K AUD and a minimum of a college degree. Promotional benefits should incorportae price sensitive audience and value-for-money benefits.
+a. There has been an equal representation of both genders (Male and female) with an incremental increase in female members. Marketing strategies should primarily focus on gender-neutral campaigns.
 
-d. Ontario and British Columbia have the highest share of customers (31% and 25% respectively) due to being the hubs for business and service respectively. Members are part of a well-updated community on their lifestyle choices including flying preferences.
 
-##### 2. Membership Trends & Flight Activity
+b. Married members dominate throughout history with an average of 60% followed by singles (27%). This denotes holiday-based promotions will highly resonate within the customer base.
 
-a. Average Lifetime value averages between 7000 and 8000 AUD with minimal variance due to proportional rate of cancellations against enrollment rates. The lowest card tier (Star) remains the most popular option (45%) with skewed benefits toward the Star Card members. Re-evalution of member benefits for card types will generate higher CLV and balanced card type distribution.
+c. 80% of the members have a salary under 100K AUD and a minimum of a college degree. Promotional benefits should incorporate price sensitive audience and value-for-money benefits.
 
-b. Cancellations in the same year has been proportionally increasing, depicting inefficient retention strategies for early-joined members. Early joined members have also booked the least flights and the least average of points redeemed suggesting declining member-loyalty.
 
-d. 70% of the members flying alone could be beneficial in redesigning marketing efforts with member benefits such as adding lounge access and faster boarding time.
+d. Ontario (31%) and British Columbia (25%) have the highest share of customers due to being the business and service hubs respectively. Members are part of a well-updated community on their lifestyle choices including flying preferences. A large portion of members could benefit from benefits due to frequent flying such as lower boarding times.
+
+
+#### 2. Membership Trends & Flight Activity
+
+
+a. Customer Lifetime value averages between 7000 and 8000 AUD with minimal variance due to the proportional rate of cancellations against enrollment rates. The lowest card tier (Star) remains the most used option (45%) with skewed benefits structure. Re-balancing member benefits for card tier could generate higher CLV.
+
+
+b. Cancellations in the same year has been an increasing trend, depicting inefficient retention strategies for early-joined members. Early joined members have also booked the least flights and the lowest average of points redeemed suggesting declining onboarding quality.
+
+
+d. 70% of the members flying alone could be beneficial in redesigning marketing efforts with individual traveler benefits such as adding lounge access and personalised food/drinks preferences.
+
 
 ### Promotion Campaign 2018 Overview
 
+
 A Promotion Campaign focusing on higher customer loyalty has been presented for members in the year 2018. Insights of demographic and flight activity of members joining through the promotion are as follows
 
-##### Demographic Attributes
 
-a. An increase in female members compared to earlier enrollment years - this indicates a gradual shift towards females which should be maximised in-terms of retention.
+#### Demographic Attributes
 
-b. Factors such as Location (Province), Education and Marital Status remains to have an identical distribution to the last five years - A vital rebranding for AirCanada targeting wider targeting audience could alleviate a change in the distribution.
 
-c. The members with less than 100K salary continues to grow - This indicates a call for reiterating the target audience - Promote campaigns realigning to a more price-sensitive audience.
+a. A continued increase in female members compared to earlier enrollment years - this indicates a gradual shift towards females which should be maximised in terms of retention strategies tailored to engage more females.
 
-##### Membership Distribution & Flight Activity
 
-a. Although the highest tier (Aurora) has the least member distribution (22%), it generates the highest average CLV. This demonstrates that the campaign has achieved to target high-valued customers.
+b. Factors such as Location (Province), Education and Marital Status remain identical in distribution to the last five years - The campaign had no reached new segments, indicating a diversified rebranding for AirCanada targeting a wider audience.
 
-b. The Cancellation rates are reported to be the highest at 11.8% from the campaign members. A challenging on-boaring process for early joiners and unbalanced tier benefits are the root causes for the cancellation rate.
 
-c. Members enrolled from the Campaign contributed to a 6% increase in the total flights booked in the year 2018. In comparison to the flights booked in the year 2017, there has been a 4.7% increase in flights booked by standard members and a 11.4% increase overall. Additionally, Campaign members contributed to 37% of the average points redeemed over the year 2018. This indicates a strong capture of members that effectively utilise their membership.
+c. The members with less than a 100K salary continue to grow - This indicates a call for reiterating card tier pricing strategies focusing on affordability for price-consious members.
+
+
+#### Membership Distribution & Flight Activity
+
+
+a. Although only 22% of the member distribution were part of Auror (the highest tier), they generated the highest average CLV. This demonstrates that the campaign has achieved to target high-value customers.
+
+
+b. The Cancellation rates are reported to be the highest at 11.8% from the campaign members. A challenging onboarding process for early joiners, lack of engagement and unbalanced tier benefits are the root causes for the cancellation rate.
+
+
+c. Members enrolled on the Campaign contributed to a 6% increase in the total flights booked in the year 2018. In comparison to the flights booked in the year 2017, there has been a 4.7% increase in flights booked by standard members and an 11.4% increase overall. Additionally, Campaign members contributed to 37% of the average points redeemed over the year 2018. This indicates a strong capture of members that effectively utilise their membership.
+
 
 ### Performance Metrics Evaluation
 
+
 Measuring the impact of the 2018 campaign using three key indicators:
 
-3.1 Year-on-Year (YoY) Growth – The first year (2013) has recorded the highest growth (42%) over the six years of operations of the company. From 2014 till 2018, there has been an average growth of 1% every year. Focusing on the growth for the year 2018, in terms of Enrollment type, there is a massive decrease in Standard members from the previous year (-18%) while looking at the overall trend - there is a 21% increase in members. This depicts that the campaign has effectively brought in customers to counter the high cancellation rates across the years.
 
-3.2 Cancellation Rate – There has been a constant cancellation rate over the year averaging at 15% YoY. In the year 2018, there has been a sharp decline in cancellation rate leading to a 5% YoY Cancellations in Standard members and 2% YoY cancellations overall. The Campaign has effectively decrease the cancellation ratio of new members albeight a high rate still prevails. A possible root case of the lower cancellation rate for the year 2018 from the Standard members could have partially been indirect influence of the campaign promotion.
+3.1 Year-on-Year (YoY) Growth – There has been an average YoY growth of 1% every year (Apart from year 2013 - 42% YoY). The marketing campaign in 2018 broke the historic average with a YoY increase of 21% despite an 18% decrease in standard members. The campaign has effectively brought in high-valued customers to counter the churn rates challenge.
 
-3.3 Average Customer Lifetime Value (CLV) - An average CLV of 8000 AUD has been maintained across 2013 till 2018. The effect of campaign in CLV has ben negligibly insignificant. The Average CLV has increased by 0.1% (8007 to 8019 AUD) through the campaign promotion. The ability to grow customer value has been a constant challenge for AirCanada which needs to be addressed.
+
+3.2 Cancellation Rate – Historically, the cancellations are consistent with an average of 5% YoY . The year 2018 observed an improvement in cancellation rate by a decline to 2% YoY cancellations overall and 5% YoY Cancellations in Standard members. Although the campaign has effectively decreased the cancellation ratio, new members cancellations remain a concern - need for early member engagement strategies.
+
+
+3.3 Average Customer Lifetime Value (CLV) - No significant changes were observed from the year 2018 due to the campaign with the average CLV continuting at 8000 AUD. Restructring the loyalty benefits would pave way for growing customer value.
+
+
 
 
 ## Recommendations
 
+1. Demographic Shift - 
 
-1. Rebranding potential - With declining flight bookings and points redemption, it presents the right time to diversify the target audiences. Three provinces capture 76% of the members leaving other areas with untapped potential. With incremental shift to more female representation, exploiting marketing promotions aligned to women could expedite growth. Lower Salary members with a degree dominating the customer base indicates price-sensitive audiences with strong value for money presence.
+Three provinces capture 76% of the members leaving other areas with untapped potential. Outreach programs targeting the underrepresented market could boost growth.
+
+With an incremental shift to more female representation, exploiting marketing promotions aligned with women will expedite growth.
+
+Degree folders with a low salary (<100K AUD) dominating the customer base highlight the need for the benefits and marketing promotions to align to a price-sensitive audience with strong value for money.
 
 
-2. Customer Lifetime Value remains constant through the years presenting strong efforts added to understanding customer preferences and aligning the benefits based on it. Restructuring the benefits across Card Types - Aurora, Star and Nova could promote loyalty and higher flight bookings.
+2. Loyalty Tier Restructure - The card tier (Aurora) with the highest CLV has the least representation (22%). A re-evaluation of the benefits for card types leading to a balanced distribution will shift the density of members to Aurora. A breakdown of the impact created by each benefit across tiers will aid in redesigning the loyalty program structure.
 
 
-3. Early Joiner benefits - Steady increase in Cancellation rates and more especially more cancellations from members enrolled in the same year pushs deeper focus and analysis of early-joining benefits. Imparting relevant knowledge on the tier system and associated benefits for new members could improve clarity for members in continuing their flying experience in AirCanada.
+3. Early Joiner benefits - A high same-year cancellation rate indicates a focus on highlighting new-joiner benefits. Introductory bonus offers such as gaining more points in the first 3-5 flights boosts new joiner engagagement with the company. A personalised onboarding which includes a detailed walkthrough of the loyalty program imparts clarity for new joiners leading to loyal customers. Periodic check-ins with customers on updating benefits reinforces engagement and loyalty with their Airline partner.
 
-4. Campaign Impact based on performance metrics - The Marketing Campaign proved to bring in a low percentage of members but with high-value (Aurora members with the maximum average CLV). The members have significantly contributed to points redeemed and flight bookings throughout 2018. Early cancellations continue to pose a challenge to retain customers from the campaign.
+
+4. Campaign Impact - The Marketing Campaign proved to bring in high-value (Aurora tier) customers who contributed to points redeemed and flight bookings throughout 2018. Similar campaigns must be conducted periodically - seasonally or themed campaigns to attract new customers consistently.
 
 
 ## Assumptions and Caveats
 
-1. The Campaign Promotion started on 01/01/2018 and is throughout that year
-2. Some of the Salary values are negative - Need for Data Validation methods for customer info forms.
-3. College degree members had salary column as NULL (Why?). The verage of the province was imputed.
+
+1. The Campaign Promotion ran throughout that year.
+2. Data Quality - Some of the Salary values are negative - Need for Data Validation protocols for customer data entry.
+3. College degree members had salary columns as NULL (Why?). The average of the province was imputed.
+
+
 
 
 ## Technical Tools
 1. SQL - Data Analysis, Exploration
-2. Python - Statsticial Analysis
-3. Tableau - Report,Dashboard Visualisation
+2. Python - Statistical Analysis
+3. Tableau - Report, Dashboard Visualisation
