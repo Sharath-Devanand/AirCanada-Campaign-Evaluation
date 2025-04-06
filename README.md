@@ -63,21 +63,17 @@ A Promotion Campaign focusing on higher customer loyalty has been presented for 
 
 a. An increase in female members compared to earlier enrollment years - this indicates a gradual shift towards females which should be maximised in-terms of retention.
 
-b. Province, Education and Marital Status distribution remains to be in the same range as the last five years - A vital rebranding for AirCanada targeting wider targeting audience could alleviate a change in the distribution. Some brandin strategies based on the three factors could be designing family-oriented travel benefits focusing underrepresented provinces.
+b. Factors such as Location (Province), Education and Marital Status remains to have an identical distribution to the last five years - A vital rebranding for AirCanada targeting wider targeting audience could alleviate a change in the distribution.
 
 c. The members with less than 100K salary continues to grow - This indicates a call for reiterating the target audience - Promote campaigns realigning to a more price-sensitive audience.
 
 2.2 Membership Distribution & Flight Activity
 
-a. Although the the card type distribution presents the Aurora (highest tier) to have the least percentage (22%), it generates the highest average Customer Lifetime Value. This indicates that the campaign had achieved to reach the higher valued customers across similar demographic patterns historically.
+a. Although the highest tier (Aurora) has the least member distribution (22%), it generates the highest average CLV. This demonstrates that the campaign has achieved to target high-valued customers.
 
-b. The Cancellation rates are reported to be at an all time high of 11.8% of the members who enrolled from the campaign have cancelled their membership. A challenging on-boaring process for early joiners and unbalanced tier benefits could be the root causes for this high cancellation rate from the campaign.
+b. The Cancellation rates are reported to be the highest at 11.8% from the campaign members. A challenging on-boaring process for early joiners and unbalanced tier benefits are the root causes for the cancellation rate.
 
-c. Members enrolled from the Campaign contributed to a 6% increase in the total flights booked in the year 2018. In comparison to the flights booked in the year 2017, there has been a 4.7% increase in flights booked by standard members and a 11.4% increase overall. This indicates a strong capture of members that effectively utilise their membership.
-
-d. Upon inspecting the Month on Month comparison of flights booked in 2017 and 2018 (overall and standard) - the flights booked by campaign members are year-round. Although there is a dip in economical months, a huge spike in booking in the summer and winder holiday periods. 
-
-e. Campaign members contribute to 37% of the average points redeemed over the year 2018. Similar to flight bookings trends, there is an increase in the average redemption of points compared to the 2017 and this impact was accomplished solely by the members from the campaign. They have effectively utilised the loyalty program for their journeys indicating loyalty for AirCanada. The Month on Month trend comparison for the years 2017 and 2018 reflect a year round increase in points redemptions through Standard and Campaign members.
+c. Members enrolled from the Campaign contributed to a 6% increase in the total flights booked in the year 2018. In comparison to the flights booked in the year 2017, there has been a 4.7% increase in flights booked by standard members and a 11.4% increase overall. Additionally, Campaign members contributed to 37% of the average points redeemed over the year 2018. This indicates a strong capture of members that effectively utilise their membership.
 
 3. Performance Metrics Evaluation
 
