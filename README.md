@@ -2,7 +2,7 @@
 
 ## Project Background
 
-I am a Data Analyst at Air Canada, collaborating with the Marketing department to evaluate the 2018 Promotion Campaign by focusing on year-on-year growth, retention, and churn. I analyze data on demographics (e.g., gender, education), membership details (e.g., CLV, card type), and flight activity (e.g., flights booked, points accumulated/redeemed) to identify the demographic groups with the highest loyalty.
+As a Data Analyst at Air Canada I'm collaborating with the Marketing department to evaluate the effectiveness of the Promotion Campaign 2018 by year-on-year growth, cancellation rate, and Customer Lifecycle Value. Additionally, I aim to identify the impact of demographics attributes(e.g., gender, education), on flight activity (e.g., flights booked, points accumulated/redeemed) and Lifetime Value. 
 
 
 ## Executive Background
@@ -14,11 +14,11 @@ The dataset consists of two tables - Customer and Flight, with the following att
 
 1. Customer: The Customer table is divided into two sections for easier interpretation
 
-1.1 Demographics: This section includes five attributes: Gender, Location, Education, Marital Status, and Salary.
+1.1 Demographics: This section includes five demographic attributes: Gender, Location, Education, Marital Status, and Salary.
 
 1.2 Membership: This section provides information on the month and year of enrollment and cancellation (if applicable), along with the card type, enrollment type, and Customer Lifetime Value (CLV).
 
-2. Flight - The Flight table contains information on the year and month of flight bookings associated with the loyalty number. It includes the count of solo and companion flights booked as well as the points accumulated and points redeemed by the member.
+2. Flights - The Flights table contains entries of the flights booked solo and with companion information on the year and month of booking along with points accumulated and redemed in that month by the member (Loyalty NUumber).
 
 <p align="center">
   <img src="https://github.com/Sharath-Devanand/PizzaProject/blob/master/imgs/airline_schema.png?raw=true" width="60%">
@@ -27,36 +27,35 @@ The dataset consists of two tables - Customer and Flight, with the following att
 
 ## Analysis & Insights
 
+The Analysis is organised into the below three subsections for better flow - 
+
+1. Historical Trends (2013 - 2017)
+2. Campaign Performance
+3. Performance Evaluation
+
 1. Historical Trends (2013–2017)
 
-
-1.1 Demographic Metrics
 A baseline is established for evaluating the campaign's performance across diverse demographics. Following are the insights for the last five years before the Campaign promotion started.
 
-a. There has consistently been an equal representation of members across both genders (Male, Female) indicating gender-neutral growth for the company over the years. A small and steady increase in Female percentage of the members could be observed which could be used advantageos to accelerate the expected representation
+1.1 Demographic Metrics
 
-b. In terms of Marital Status, married members dominate across all the yeas with consistently representing 58-60% of the customers. The difference of 30% from the second largest group in Marital Status of Single (27%) indicates a high-volume of members inclined to booking holidays through AirCanada.
+a. There has consistently been an equal representation of both genders (Male, Female) with an incremental increase in female members. Marketing programs should primarily focus on gender-neutral campaigns.
 
-c. Upon oberving the Education distribution, Bachelors and College graduates occupy almost 85% of the customer base. This indicates knowledgeable members who would expect quality flying experience.
+b. Married members dominate throughout history with an average of 60%. The difference of 30% from the second largest group in Marital Status (Single - 27%) indicates a high-volume of members with preference of AirCanada for holiday bookings.
 
-d. Ontario and British Columbia have the highest share of customers (31% and 25% respectively) owed to the fact of having the highest economy compared to the other provinces. Ontario being the business hub and British Columbia known for its service sector, people are well-informed and updated on their lifestyle choices which include flying preferences.
+c. 80% of the members have their salary under 100K AUD and a minimum of a college degree. Promotional benefits should incorportae price sensitive audience and value-for-money benefits.
 
-e. 90% of the members fall into the salary bracket of under 100k CAD indicating more conscious efforts into maintaing the budget-conscious travelers.
-
+d. Ontario and British Columbia have the highest share of customers (31% and 25% respectively) due to being the hubs for business and service respectively. Members are part of a well-updated community on their lifestyle choices including flying preferences.
 
 1.2 Membership Trends & Flight Activity
 
-a. On the inspection of the average CLV across years, is has remained to be in the range of 7000 and 8000 AUD despite the increase in membership count through the years. This indicates an indication of growing customer value over time leading to members cancelling their membership.
+a. Average Lifetime value averages between 7000 and 8000 AUD with minimal variance due to proportional rate of cancellations against enrollment rates. The lowest card tier (Star) remains the most popular option (45%) with skewed benefits toward the Star Card members. Re-evalution of member benefits for card types will generate higher CLV and balanced card type distribution.
 
-b. A steady rising trend in cancellation presents a critical challenge needed to be resolved by the organisation. With the increase in cancellation, it can be seen that the number of cancellations in the same year has been proportionally increasing depicting inadequate retention policies and strategies for early-joined members through the years.
+b. Cancellations in the same year has been proportionally increasing, depicting inefficient retention strategies for early-joined members. Early joined members have also booked the least flights and the least average of points redeemed suggesting declining member-loyalty.
 
-c. Star Card type remains the most popular option (45%) across card categories indicating a major challenge of members not progressing to higher tiers. This could mean that either the standards set to progress are too high to upgrade or the benefits of the Star type outweigh benefits from the higher card types. A restructure of the benefits along with the standards to progress is a necessory next step into growing members retention and loyalty.
+d. 70% of the members flying alone could be beneficial in redesigning marketing efforts with member benefits such as adding lounge access and faster boarding time.
 
-d. Members wo enrolled in the last two years have booked relatively lesser flights than the older members proving absence of early retention strategies. This could also indicate that more recent members experiment with booking a few flights and then cancelling it due to unsatisfactory benefits. A decrease in average points redeemed from the early members further reiterate the need for policy structures to  maintain new-joiners
-
-e. A constant domination of 70% of the members flying solo presents an oppurtunity to add solo-flying focused benefits such as lounge access and quicker boarding time.
-
-2. 2018 Promotion Campaign Overview
+2. Promotion Campaign 2018 Overview
 
 A Promotion Campaign focusing on higher customer loyalty has been presented for members in the year 2018. Insights of demographic and flight activity of members joining through the promotion are as follows
 
@@ -81,6 +80,7 @@ d. Upon inspecting the Month on Month comparison of flights booked in 2017 and 2
 e. Campaign members contribute to 37% of the average points redeemed over the year 2018. Similar to flight bookings trends, there is an increase in the average redemption of points compared to the 2017 and this impact was accomplished solely by the members from the campaign. They have effectively utilised the loyalty program for their journeys indicating loyalty for AirCanada. The Month on Month trend comparison for the years 2017 and 2018 reflect a year round increase in points redemptions through Standard and Campaign members.
 
 3. Performance Metrics Evaluation
+
 Measuring the impact of the 2018 campaign using three key indicators:
 
 3.1 Year-on-Year (YoY) Growth – The first year (2013) has recorded the highest growth (42%) over the six years of operations of the company. From 2014 till 2018, there has been an average growth of 1% every year. Focusing on the growth for the year 2018, in terms of Enrollment type, there is a massive decrease in Standard members from the previous year (-18%) while looking at the overall trend - there is a 21% increase in members. This depicts that the campaign has effectively brought in customers to counter the high cancellation rates across the years.
@@ -108,7 +108,7 @@ Measuring the impact of the 2018 campaign using three key indicators:
 
 1. The Campaign Promotion started on 01/01/2018 and is throughout that year
 2. Some of the Salary values are negative - Need for Data Validation methods for customer info forms.
-3. For all the members with the Education as College - Salary was NULL - Average of the province was imputed
+3. College degree members had salary column as NULL (Why?). The verage of the province was imputed.
 
 
 ## Technical Tools
