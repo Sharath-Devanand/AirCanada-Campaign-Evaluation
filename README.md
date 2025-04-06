@@ -1,4 +1,4 @@
-# Airline Loyalty Analysis
+# Airline Campagin Evaluation
 
 ## Project Background
 
@@ -33,11 +33,11 @@ The Analysis is organised into the below three subsections for better flow -
 2. Campaign Performance
 3. Performance Evaluation
 
-1. Historical Trends (2013–2017)
+### Historical Trends (2013–2017)
 
 A baseline is established for evaluating the campaign's performance across diverse demographics. Following are the insights for the last five years before the Campaign promotion started.
 
-1.1 Demographic Metrics
+##### 1. Demographic Metrics
 
 a. There has consistently been an equal representation of both genders (Male, Female) with an incremental increase in female members. Marketing programs should primarily focus on gender-neutral campaigns.
 
@@ -47,7 +47,7 @@ c. 80% of the members have their salary under 100K AUD and a minimum of a colleg
 
 d. Ontario and British Columbia have the highest share of customers (31% and 25% respectively) due to being the hubs for business and service respectively. Members are part of a well-updated community on their lifestyle choices including flying preferences.
 
-1.2 Membership Trends & Flight Activity
+##### 2. Membership Trends & Flight Activity
 
 a. Average Lifetime value averages between 7000 and 8000 AUD with minimal variance due to proportional rate of cancellations against enrollment rates. The lowest card tier (Star) remains the most popular option (45%) with skewed benefits toward the Star Card members. Re-evalution of member benefits for card types will generate higher CLV and balanced card type distribution.
 
@@ -55,11 +55,11 @@ b. Cancellations in the same year has been proportionally increasing, depicting 
 
 d. 70% of the members flying alone could be beneficial in redesigning marketing efforts with member benefits such as adding lounge access and faster boarding time.
 
-2. Promotion Campaign 2018 Overview
+### Promotion Campaign 2018 Overview
 
 A Promotion Campaign focusing on higher customer loyalty has been presented for members in the year 2018. Insights of demographic and flight activity of members joining through the promotion are as follows
 
-2.1 Demographic Distribution – Breakdown of new members by gender, location, education, marital status, and salary.
+##### Demographic Attributes
 
 a. An increase in female members compared to earlier enrollment years - this indicates a gradual shift towards females which should be maximised in-terms of retention.
 
@@ -67,7 +67,7 @@ b. Factors such as Location (Province), Education and Marital Status remains to 
 
 c. The members with less than 100K salary continues to grow - This indicates a call for reiterating the target audience - Promote campaigns realigning to a more price-sensitive audience.
 
-2.2 Membership Distribution & Flight Activity
+##### Membership Distribution & Flight Activity
 
 a. Although the highest tier (Aurora) has the least member distribution (22%), it generates the highest average CLV. This demonstrates that the campaign has achieved to target high-valued customers.
 
@@ -75,7 +75,7 @@ b. The Cancellation rates are reported to be the highest at 11.8% from the campa
 
 c. Members enrolled from the Campaign contributed to a 6% increase in the total flights booked in the year 2018. In comparison to the flights booked in the year 2017, there has been a 4.7% increase in flights booked by standard members and a 11.4% increase overall. Additionally, Campaign members contributed to 37% of the average points redeemed over the year 2018. This indicates a strong capture of members that effectively utilise their membership.
 
-3. Performance Metrics Evaluation
+### Performance Metrics Evaluation
 
 Measuring the impact of the 2018 campaign using three key indicators:
 
