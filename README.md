@@ -9,7 +9,7 @@ As a Data Analyst at Air Canada, I'm collaborating with the Marketing department
 
 ## Executive Background
 
-
+The 2018 Marketing Campaign drove a 21% increase in YoY membership growth, exceeding the historical average of 1% growth - highlighting the effectiveness of periodic themed campaigns attracting new customers. However same-year cancellations continue to increase suggesting a need for stronger early-joiner engagement and smoother onboarding strategies. The stagnant average customer lifetime value reinforces the need for restructuring benefits for card tiers for growing high-value members. Campaign members contributed to an 11.4% increase in flight booking and a 32% increase in average points redeemed indicating success in the members acquired through the promotional campaign. Finally, exploring underrepresented provinces with affordable and value-for-money offerings will help Air Canada tap into new customer bases.
 
 
 ## Data Description
@@ -95,6 +95,10 @@ b. Factors such as Location (Province), Education and Marital Status remain iden
 
 c. The members with less than a 100K salary continue to grow - This suggests a call for revising card tier pricing strategies to focus on affordability for price-conscious members.
 
+<p align="center">
+  <img src="https://github.com/Sharath-Devanand/Airline-loyalty-analysis/blob/master/imgs/future_audience.png?raw=true" width="60%">
+</p>
+
 
 #### Membership Distribution & Flight Activity
 
@@ -106,6 +110,11 @@ b. The Cancellation rates are reported to be the highest at 11.8% from the campa
 
 
 c. Members enrolled in the Campaign contributed to a 6% increase in the total flights booked in the year 2018. In comparison to the flights booked in the year 2017, there has been a 4.7% increase in flights booked by standard members and an 11.4% increase overall. Additionally, Campaign members contributed to 37% of the total points redeemed over the year 2018. This indicates a strong capture of members that effectively utilise their membership.
+
+
+<p align="center">
+  <img src="https://github.com/Sharath-Devanand/Airline-loyalty-analysis/blob/master/imgs/card_tiers.png?raw=true" width="60%">
+</p>
 
 
 ### Performance Metrics Evaluation
@@ -121,6 +130,16 @@ Measuring the impact of the 2018 campaign using three key indicators:
 
 
 3.3 Average Customer Lifetime Value (CLV) - No significant changes were observed in 2018 due to the campaign with the average CLV continuing at 8000 AUD. Restructuring the loyalty benefits would pave the way for growing customer value.
+
+
+<p align="center">
+  <img src="https://github.com/Sharath-Devanand/Airline-loyalty-analysis/blob/master/imgs/campaign.png?raw=true" width="60%">
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/Sharath-Devanand/Airline-loyalty-analysis/blob/master/imgs/flight.png?raw=true" width="60%">
+</p>
 
 
 
