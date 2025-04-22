@@ -4,7 +4,7 @@
 ## Project Background
 
 
-As a Data Analyst at Air Canada, I'm collaborating with the Marketing department to evaluate the effectiveness of the 2018 Promotion Campaign. I'm focusing on three KPIs - year-on-year member (YoY) growth, cancellation rate, and Customer Lifetime Value (CLV). Additionally, I aim to uncover the impact of demographic attributes (gender, education) on flight activity and CLV.
+I assume the role of a Data Analyst at a fictitious airline company - Air Canada (Datasourced from Maven Analytics). I'm collaborating with the Marketing department to evaluate the effectiveness of the 2018 Promotion Campaign. I'm focusing on three KPIs - year-on-year member (YoY) growth, cancellation rate, and Customer Lifetime Value (CLV). Additionally, I aim to uncover the impact of demographic attributes (gender, education) on flight activity and CLV.
 
 
 ## Executive Background
@@ -15,7 +15,7 @@ The 2018 Marketing Campaign drove a 21% increase in YoY membership growth, excee
 ## Data Description
 
 
-The dataset consists of two tables - Customer and Flight, with the following attributes:
+The dataset (sourced from Maven Analytics) consists of two tables - Customer and Flight, with the following attributes:
 
 
 1. Customer: The Customer table is divided into two sections -
@@ -167,9 +167,10 @@ Degree holders with salaries below 100K AUD dominating the customer base highlig
 ## Assumptions and Caveats
 
 
-1. The Campaign Promotion ran throughout that year.
-2. Data Quality - Some of the Salary values are negative - Need for Data Validation protocols for customer data entry.
-3. College degree members had salary columns as NULL (Reason unknown). The average of the province was imputed.
+1. The Dataset is sourced from the Internet (Maven Analytics)
+2. The Campaign Promotion ran throughout that year.
+3. Data Quality - Some of the Salary values are negative - Need for Data Validation protocols for customer data entry.
+4. College degree members had salary columns as NULL (Reason unknown). The average of the province was imputed.
 
 
 
